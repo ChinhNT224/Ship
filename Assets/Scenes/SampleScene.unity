@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 236592794}
   - component: {fileID: 236592795}
+  - component: {fileID: 236592796}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -148,8 +149,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236592793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6363817, y: -2.562149, z: 0.0947704}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 0.85, y: -2.59, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1855416584}
@@ -168,6 +169,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52a7d0205a3b134295409f65fc2e332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &236592796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236592793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fb3a1439ff5ca4096ab34ccec555ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefabs: {fileID: 3204405470133512294, guid: 5a842de6407ad254eae88c99703c55c7, type: 3}
+  shootingInterval: 0.1
 --- !u!1 &437189296
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,8 +519,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855416583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.219, y: -0.21, z: -0.0947704}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.26, y: -0.08, z: -0.0947704}
+  m_LocalScale: {x: 1.2206376, y: 1.2924521, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 816273245}

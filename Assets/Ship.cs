@@ -9,8 +9,7 @@ public class Ship : MonoBehaviour
         var worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         worldPoint.z = 0;
         transform.position = worldPoint;
-
-        // Debugging output
+        
         Debug.Log(Input.mousePosition);
         Debug.Log("World point: " + worldPoint);
     } 
